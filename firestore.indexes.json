@@ -1,0 +1,67 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "mv_monthly",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "report_type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "year",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "month",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "account_code",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "mv_quarterly",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "report_type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "year",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "quarter",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "account_code",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "mv_yearly",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "report_type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "year",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "account_code",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
