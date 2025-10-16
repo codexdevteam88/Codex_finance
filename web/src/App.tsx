@@ -16,6 +16,8 @@ export default function App() {
         return <Dashboard />
       case 'balance-sheet':
         return <FinancialReport reportType="BS" />
+      case 'income-statement':
+        return <FinancialReport reportType="IS" />
       case 'cash-flow':
         return <FinancialReport reportType="CF" />
       case 'sales':

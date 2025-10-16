@@ -30,6 +30,7 @@ const navItems: NavItem[] = [
               label: 'Income Statement', 
               icon: '📄',
               children: [
+                { id: 'income-statement', label: 'Income Statement', icon: '📄' },
                 { id: 'income-statement-sales', label: 'Income Statement by Sales Reps', icon: '👥' },
                 { id: 'income-statement-depts', label: 'Income Statement by Departments', icon: '🏢' }
               ]
